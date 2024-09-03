@@ -63,17 +63,16 @@
 
 @media screen and (max-width: 830px) {
     
-    .skillImageContainer {
-        background-color: var(--color-bg);
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
+    .skills {
         justify-content: center;
+    }
+
+    .skillImageContainer {
         width: 70px;
         height: 70px;
     }
 
-    .skillImageContainer img{
+    .skillImageContainer img {
         width: 40px;
     }
 }
