@@ -60,3 +60,20 @@
     font-size: 20px;
     font-weight: 100;
 }
+
+@media screen and (max-width: 830px) {
+    
+    .skillImageContainer {
+        background-color: var(--color-bg);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+    }
+
+    .skillImageContainer img{
+        width: 40px;
+    }
+}

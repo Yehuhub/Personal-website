@@ -62,11 +62,12 @@
     font-family: var(--font-manrope);
 }
 
-@media screen and(max-width: 830px) {
+
+@media screen and (max-width: 830px) {
     .container {
-        background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
+        background-color: var(--color-itembg);
+        margin: 5%; 
+        padding: 3%;
     }
 
     .content {
@@ -77,8 +78,9 @@
         margin-top: 29px;
     }
 
-    .aboutItem{
-        padding-left: 0;
-        padding-right: 0;
+    .aboutItem p{
+        font-size: 18px;
+        font-weight: 300;
     }
+
 }
