@@ -36,9 +36,18 @@
     text-decoration: none;
 }
 
-.menuBtn {
+/* .menuBtn {
     display: none;
+} */
+
+.menuBtn {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
 }
+
+.menuBtnRotated {
+    transform: rotate(90deg); /* Rotate the image by 90 degrees */
+}
+
 
 @media screen and (max-width: 830px){
     .navbar {

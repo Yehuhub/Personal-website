@@ -11,8 +11,8 @@ export const Navbar = () => {
             <a className={styles.title} href="/">Yehu Raccah</a>
             <div className={styles.menu}>
                 <img 
-                className={styles.menuBtn} 
-                src={menuOpen ? getImageUrl("nav/menuClose.png") : getImageUrl("nav/menuIcon.png")}
+                className={`${styles.menuBtn} ${menuOpen ? styles.menuBtnRotated : ""}`} 
+                src={getImageUrl("nav/menuIcon.png")}
                 alt="menu-button"
                 onClick={() => setMenuOpen(!menuOpen)}
                 />
