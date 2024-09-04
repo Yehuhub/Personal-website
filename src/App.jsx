@@ -19,8 +19,8 @@ function App() {
       <About />
       <Experience />
       <hr className={styles.separator}/>
-      <Projects />
-      <hr className={styles.separator}/>
+      {/* <Projects />
+      <hr className={styles.separator}/> */}
       <Contact />
     </div>
   )

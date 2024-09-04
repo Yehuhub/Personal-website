@@ -36,16 +36,14 @@
     text-decoration: none;
 }
 
-/* .menuBtn {
-    display: none;
-} */
 
 .menuBtn {
-    transition: transform 0.3s ease-in-out; /* Smooth transition for rotation */
+    display: none;
+    transition: transform 0.3s ease-in-out; 
 }
 
 .menuBtnRotated {
-    transform: rotate(90deg); /* Rotate the image by 90 degrees */
+    transform: rotate(90deg); 
 }
 
 
