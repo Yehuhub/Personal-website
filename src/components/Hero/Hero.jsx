@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <img
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/heroImage.jpg")}
         alt="HeroImageOfMe"
         className={styles.heroImg}
       />
