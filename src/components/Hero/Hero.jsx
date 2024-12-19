@@ -9,7 +9,6 @@ export const Hero = () => {
         src={getImageUrl("hero/heroImage.png")}
         alt="HeroImageOfMe"
         className={styles.heroImg}
-        loading="lazy"
       />
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I Am</h1>
