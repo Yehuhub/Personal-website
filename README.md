@@ -4,5 +4,4 @@ A personal website built to learn a bit about web development.
 
 ## Technologies used
 React  
-Vite  
 CSS
